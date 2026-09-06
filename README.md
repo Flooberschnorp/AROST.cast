@@ -1,88 +1,84 @@
-# 🐈 Floob's KeyCast
+<div align="center">
+
+# 🐈 FLOOB'S KEYCAST
 
 ### A customizable keyboard and mouse input overlay for Windows.
 
-**Floob's KeyCast** is a lightweight Windows application that displays your keyboard and mouse inputs through a customizable on-screen overlay.
+Display your keyboard and mouse inputs with a clean, customizable overlay built for gaming, streaming, recording, and more.
 
-Designed for gaming, streaming, recording, tutorials, and input visualization, Floob's KeyCast gives you control over what inputs appear and how your overlay looks.
+<br>
 
----
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b078cdee-c990-497f-815f-b1bf856fec73" width="800">
+</p>
 
-## 📥 Download
+<br><br>
 
-### [Download the Latest Release](../../releases/latest)
+## 📥 [Download Latest Release](../../releases/latest)
 
-Head to the **Releases** page to download the newest version of Floob's KeyCast.
+**Latest Version: v0.0.46**
 
-> **Current Release:** v0.0.46
-
-Download the Windows installer:
-
-**`FloobsKeyCast-Setup-0.0.46.exe`**
-
-> **Note:** Windows may display an "Unknown Publisher" or SmartScreen warning because Floob's KeyCast is not currently digitally signed.
+</div>
 
 ---
 
 ## ✨ Features
 
-### ⌨️ Keyboard Overlay
-- Choose exactly which keyboard inputs are displayed
-- WASD and IJKL quick presets
-- Custom keyboard layouts
-- Adjustable overlay scale and positioning
-- Key press animations
+| ⌨️ Keyboard | 🖱️ Mouse | 🎨 Customization | 💾 Setups |
+|---|---|---|---|
+| Select displayed keys | Button visualization | Custom colors | Save configurations |
+| WASD & IJKL presets | Side buttons | Glow effects | Favorite setups |
+| Custom layouts | Movement indicator | Themes & textures | Share codes |
+| Key animations | Custom positioning | Custom backgrounds | Quick switching |
 
-### 🖱️ Mouse Overlay
-- Left, right, middle, and side button visualization
-- Mouse movement indicator
-- Adjustable mouse position and distance
-- Choose which mouse inputs are visible
+### ⌨️ Custom Keyboard Overlay
 
-### 🎨 Customization
-- Custom key colors
-- Pressed key colors
+Choose exactly which keyboard inputs appear on your overlay. Adjust the layout, scale, position, colors, glow, and animations to create an overlay that fits your setup.
+
+### 🖱️ Mouse Visualization
+
+Display left, right, middle, and side mouse buttons alongside your keyboard. Mouse positioning and movement indicators can also be customized.
+
+### 🎨 Make It Yours
+
+Customize your overlay with:
+
+- Key and pressed-key colors
 - Outlines and glow effects
-- Multiple built-in color presets
+- Built-in color presets
 - Application themes
-- Custom overlay backgrounds
-- Custom keyboard and mouse textures
+- Custom backgrounds
+- Keyboard and mouse textures
+- Adjustable scale and positioning
 
-### 💾 Setups
-- Save multiple overlay configurations
-- Favorite frequently used setups
-- Share setups using share codes
-- Quickly switch between configurations
+### 💾 Save & Share Setups
 
-### 🖥️ Desktop Overlay
-- Always-on-top input display
-- Lock and unlock overlay positioning
-- Adjustable scale and screen position
-- System tray controls
-- Live preview while editing
+Create multiple configurations for different games or applications. Save your favorite setups and share configurations using setup codes.
 
 ---
 
-## 🚀 Installation
+## 📥 Installation
 
-1. Open the **Releases** section of this repository.
-2. Download the latest `FloobsKeyCast-Setup-X.X.X.exe`.
+1. Go to the **[latest release](../../releases/latest)**.
+2. Download `FloobsKeyCast-Setup-X.X.X.exe`.
 3. Run the installer.
 4. Follow the installation wizard.
 5. Launch **Floob's KeyCast**.
-6. Follow the quick tutorial to configure your first overlay.
+6. Follow the built-in tutorial to create your first overlay.
 
-No Python installation is required when using the Windows installer.
+> **Windows SmartScreen:** Floob's KeyCast is not currently digitally signed, so Windows may display an "Unknown Publisher" warning when running the installer.
+
+No Python installation is required.
 
 ---
 
 ## 🔄 Updating
 
-When a new version of Floob's KeyCast is released, download the newest installer and run it over your existing installation.
+New versions are published through **GitHub Releases**.
 
-You **do not need to uninstall the previous version first**.
+Simply download the newest installer and install it over your existing version. You do **not** need to uninstall Floob's KeyCast first.
 
-Your saved settings and setups are stored separately from the application files so they can remain available between updates.
+Your saved settings and setups are stored separately from the application installation and are preserved between updates.
 
 ---
 
@@ -97,29 +93,31 @@ Your saved settings and setups are stored separately from the application files 
 
 Found a bug or have an idea for Floob's KeyCast?
 
-Open an **Issue** on this GitHub repository and describe what happened or what you'd like to see added.
+Open an **Issue** on this repository.
 
-When reporting a bug, including your Floob's KeyCast version and a screenshot can help identify the problem.
+When reporting a bug, please include:
 
----
-
-## 🗺️ What's Next?
-
-Floob's KeyCast is actively being developed. Future releases may include additional customization options, usability improvements, new overlay features, and automatic update support.
-
-Follow the repository or check **Releases** to keep up with new versions.
+- Your Floob's KeyCast version
+- What you were doing when the problem occurred
+- What you expected to happen
+- A screenshot if possible
 
 ---
 
-## 📜 License
+## 🗺️ Development
 
-Copyright © 2026 Floob.
+Floob's KeyCast is actively being developed.
 
-See the repository's `LICENSE` file for information about using or redistributing Floob's KeyCast.
+Future releases will continue improving customization, usability, performance, and the overall overlay experience.
+
+⭐ **Star the repository** if you'd like to follow the project.
 
 ---
 
-<p align="center">
-  <b>Floob's KeyCast</b><br>
-  Made for cats. 🐾
-</p>
+<div align="center">
+
+### 🐈 Floob's KeyCast
+
+**Your keys. Your mouse. Your overlay.**
+
+</div>
