@@ -1,22 +1,22 @@
-<div align="center">
+
 
 # 🐈 FLOOB'S KEYCAST
 
-### A customizable keyboard and mouse input overlay for Windows.
+### A customizable keyboard, mouse, and controller input overlay for Windows.
 
-Display your keyboard and mouse inputs with a clean, customizable overlay built for gaming, streaming, recording, and more.
+Display your inputs with a clean, customizable overlay built for gaming, streaming, recording, and more.
 
 <br>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/b078cdee-c990-497f-815f-b1bf856fec73" width="800">
+  <img src="https://github.com/user-attachments/assets/b078cdee-c990-497f-815f-b1bf856fec73" width="800" alt="Floob's KeyCast preview">
 </p>
 
-<br><br>
+<br>
 
 ## 📥 [Download Latest Release](../../releases/latest)
 
-**Latest Version: v0.0.46**
+**Latest Version: v0.0.91**
 
 </div>
 
@@ -24,36 +24,47 @@ Display your keyboard and mouse inputs with a clean, customizable overlay built 
 
 ## ✨ Features
 
-| ⌨️ Keyboard | 🖱️ Mouse | 🎨 Customization | 💾 Setups |
+| ⌨️ Keyboard & Mouse | 🎮 Controller | 🎨 Customization | 💾 Profiles |
 |---|---|---|---|
-| Select displayed keys | Button visualization | Custom colors | Save configurations |
-| WASD & IJKL presets | Side buttons | Glow effects | Favorite setups |
-| Custom layouts | Movement indicator | Themes & textures | Share codes |
-| Key animations | Custom positioning | Custom backgrounds | Quick switching |
+| Select displayed keys | Xbox and PS5 overlays | Colors and glow | Save and favorite setups |
+| Keyboard presets | Live button visualization | Themes and textures | Quick profile switching |
+| Mouse buttons and movement | Stick and trigger visualization | Custom backgrounds | Link profiles to games |
+| Key animations | Separate appearance settings | Live desktop editing | Import and export `.keycast` files |
 
-### ⌨️ Custom Keyboard Overlay
+### ⌨️ Keyboard & Mouse Overlay
 
-Choose exactly which keyboard inputs appear on your overlay. Adjust the layout, scale, position, colors, glow, and animations to create an overlay that fits your setup.
+Choose which keys appear and customize your keyboard layout, scale, spacing, colors, glow, and animations. Display mouse buttons and movement alongside your keyboard. Changes appear on the desktop overlay as you edit.
 
-### 🖱️ Mouse Visualization
+### 🎮 Controller Overlay
 
-Display left, right, middle, and side mouse buttons alongside your keyboard. Mouse positioning and movement indicators can also be customized.
+Switch to an Xbox or PlayStation 5 / DualSense overlay to display controller input. Customize its appearance independently from your keyboard and mouse setup.
 
 ### 🎨 Make It Yours
 
 Customize your overlay with:
 
-- Key and pressed-key colors
-- Outlines and glow effects
-- Built-in color presets
+- Key, outline, and pressed-input colors
+- Glow effects and animations
 - Application themes
-- Custom backgrounds
-- Keyboard and mouse textures
+- Custom backgrounds and device textures
 - Adjustable scale and positioning
+- Separate Keyboard & Mouse and Controller appearance settings
 
-### 💾 Save & Share Setups
+### 💾 Profiles & Game Linking
 
-Create multiple configurations for different games or applications. Save your favorite setups and share configurations using setup codes.
+Save setups as profiles, then activate, rename, duplicate, favorite, or delete them from the **Profiles** page. You can also switch profiles from the system tray.
+
+Link a saved profile to a game or application and optionally have KeyCast switch to it when that window is focused. The redesigned game library searches Steam, Epic, and common installation locations without freezing the editor.
+
+### 📤 Share Your Setup
+
+Export your current Keyboard & Mouse or Controller setup as a portable `.keycast` file. Import the file into another KeyCast installation to use that setup there.
+
+Each export contains one mode. Local custom-image paths are excluded because those files will not exist on another computer.
+
+### 🎥 OBS Capture
+
+To show your overlay in OBS Studio, add a **Window Capture** source and select **Floob's KeyCast Overlay**.
 
 ---
 
@@ -61,24 +72,31 @@ Create multiple configurations for different games or applications. Save your fa
 
 1. Go to the **[latest release](../../releases/latest)**.
 2. Download `FloobsKeyCast-Setup-X.X.X.exe`.
-3. Run the installer.
-4. Follow the installation wizard.
-5. Launch **Floob's KeyCast**.
-6. Follow the built-in tutorial to create your first overlay.
+3. Run the installer and follow the setup wizard.
+4. Launch **Floob's KeyCast**.
+5. Follow the built-in tutorial, then select **Show on Desktop** to display your overlay.
 
-> **Windows SmartScreen:** Floob's KeyCast is not currently digitally signed, so Windows may display an "Unknown Publisher" warning when running the installer.
+> **Windows SmartScreen:** Floob's KeyCast is not currently digitally signed, so Windows may display an “Unknown Publisher” warning when you run the installer.
 
-No Python installation is required.
+**No Python installation is required** when using the Windows installer.
 
 ---
 
 ## 🔄 Updating
 
-New versions are published through **GitHub Releases**.
+KeyCast checks for new public GitHub Releases and can show the release notes inside the editor. Select **Install Update** to download and install an available update through the app.
 
-Simply download the newest installer and install it over your existing version. You do **not** need to uninstall Floob's KeyCast first.
+You can also download the newest installer from [GitHub Releases](../../releases) and install it over your existing version. You do **not** need to uninstall KeyCast first.
 
-Your saved settings and setups are stored separately from the application installation and are preserved between updates.
+Your settings, saved profiles, and imported images are stored separately in `%APPDATA%\FloobsKeyCast` and are preserved between updates.
+
+---
+
+## 🛠️ Recovery & Diagnostics
+
+KeyCast saves configuration changes automatically and keeps recent configuration history. If you need to undo a saved change, open **Settings** and select **Restore Previous Configuration** to choose from up to five recent versions.
+
+If you encounter a problem, **Export Diagnostic Report** creates a ZIP containing app and system details, controller status, recent startup logs, and a configuration with selected file paths redacted. Review the report before sharing it.
 
 ---
 
@@ -91,24 +109,21 @@ Your saved settings and setups are stored separately from the application instal
 
 ## 🐛 Bugs & Suggestions
 
-Found a bug or have an idea for Floob's KeyCast?
-
-Open an **Issue** on this repository.
+Found a bug or have an idea for Floob's KeyCast? Open an **Issue** on this repository.
 
 When reporting a bug, please include:
 
 - Your Floob's KeyCast version
 - What you were doing when the problem occurred
 - What you expected to happen
-- A screenshot if possible
+- A screenshot, if possible
+- A diagnostic report, if relevant and after reviewing its contents
 
 ---
 
 ## 🗺️ Development
 
-Floob's KeyCast is actively being developed.
-
-Future releases will continue improving customization, usability, performance, and the overall overlay experience.
+Floob's KeyCast is actively being developed. Future releases will continue improving customization, usability, performance, and the overall overlay experience.
 
 ⭐ **Star the repository** if you'd like to follow the project.
 
